@@ -1,2 +1,18 @@
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 @import "./custom";
+
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+.footer {
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+}
