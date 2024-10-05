@@ -12008,4 +12008,8 @@ main {
   padding: 15px;
   position: absolute;
   bottom: 0;
+}
+
+.text-justify {
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */
