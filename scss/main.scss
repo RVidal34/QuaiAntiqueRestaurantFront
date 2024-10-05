@@ -6,8 +6,40 @@ html {
   position: relative;
 }
 
+p {
+    font-family: $font-family-serif;
+}
+
 main {
   margin-bottom: 250px;
+}
+
+.hero-scene {
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../assets/images/fondHeroScene.jpg)center/cover;
+        filter: brightness(0.3);
+    }
+
+    * {
+        // Positionner tous les éléments au-dessus de "before"
+        position: relative;
+    }
+
+    .hero-scene-content {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .footer {
